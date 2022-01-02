@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.9.9
 ADD main.py /
 ADD requirements.txt /
 WORKDIR /
